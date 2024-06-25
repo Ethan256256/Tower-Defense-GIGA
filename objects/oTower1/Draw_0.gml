@@ -1,5 +1,6 @@
 draw_self();
-draw_circle(x,y,range,true);
+if(MouseOver(x-16,y-16,sprite_width,sprite_height))
+	draw_circle(x,y,range,true);
 
 var en = instance_nearest(x, y, oEnemy);
 if (en != noone){
@@ -12,4 +13,9 @@ if (en != noone){
 		
 		objecttoshoot = en;
 	}
+	else{
+		shooting=false;
+		objecttoshoot=noone;
+	}
+	
 }
