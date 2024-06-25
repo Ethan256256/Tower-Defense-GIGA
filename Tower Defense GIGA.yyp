@@ -59,6 +59,7 @@
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
     {"id":{"name":"Starfruit","path":"sprites/Starfruit/Starfruit.yy",},},
     {"id":{"name":"StarfruitBlade","path":"sprites/StarfruitBlade/StarfruitBlade.yy",},},
+    {"id":{"name":"TestGrass","path":"sprites/TestGrass/TestGrass.yy",},},
     {"id":{"name":"TowerBase","path":"sprites/TowerBase/TowerBase.yy",},},
   ],
   "resourceType":"GMProject",
