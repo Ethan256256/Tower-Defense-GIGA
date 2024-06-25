@@ -1,4 +1,4 @@
 range = 100;
-fire_rate = roomspeed/3;
+fire_rate = 30;
 shooting = false;
 objecttoshoot = noone;
