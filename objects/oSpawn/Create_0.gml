@@ -15,7 +15,7 @@ alarm[0] = 1;
 
 global.hp = 100;
 global.spd = 1;
-global.level = 2;
+global.level = 1;
 global.lives = 10;
 
 global.coins = 300;
