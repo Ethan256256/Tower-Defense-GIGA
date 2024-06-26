@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
-  "%Name":"VictoryEndless",
+  "%Name":"ReturnButton",
   "bboxMode":0,
-  "bbox_bottom":63,
+  "bbox_bottom":15,
   "bbox_left":0,
-  "bbox_right":127,
+  "bbox_right":15,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5567bee3-c27a-42e5-89b4-34ed06d754d7","name":"5567bee3-c27a-42e5-89b4-34ed06d754d7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"800db68e-4d96-4671-96c2-cc889e6e0b23","name":"800db68e-4d96-4671-96c2-cc889e6e0b23","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":16,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"54baf265-b617-453a-93f3-39cb17b094f3","blendMode":0,"displayName":"default","isLocked":false,"name":"54baf265-b617-453a-93f3-39cb17b094f3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"1ea1f4e7-96b1-436a-b750-3d88e514993a","blendMode":0,"displayName":"default","isLocked":false,"name":"1ea1f4e7-96b1-436a-b750-3d88e514993a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"VictoryEndless",
+  "name":"ReturnButton",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"VictoryEndless",
+    "%Name":"ReturnButton",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"VictoryEndless",
+    "name":"ReturnButton",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5567bee3-c27a-42e5-89b4-34ed06d754d7","path":"sprites/VictoryEndless/VictoryEndless.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"44a3732a-32b2-4a29-a6b6-15c40b7c926e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"800db68e-4d96-4671-96c2-cc889e6e0b23","path":"sprites/ReturnButton/ReturnButton.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ec5b2a60-a1ed-4f28-ac2c-bc12eb97b531","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":128,
+  "width":16,
 }
