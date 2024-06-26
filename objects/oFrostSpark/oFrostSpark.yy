@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oVioletD",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oFrostSpark",
+  "eventList":[],
   "managed":true,
-  "name":"oVioletD",
+  "name":"oFrostSpark",
   "overriddenProperties":[],
   "parent":{
-    "name":"towerdrag",
-    "path":"folders/Objects/towerdrag.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"oTower1D",
-    "path":"objects/oTower1D/oTower1D.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Violet",
-    "path":"sprites/Violet/Violet.yy",
+    "name":"FrostSpark",
+    "path":"sprites/FrostSpark/FrostSpark.yy",
   },
   "spriteMaskId":null,
   "visible":true,

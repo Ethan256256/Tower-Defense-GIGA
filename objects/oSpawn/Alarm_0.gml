@@ -129,26 +129,8 @@ if(global.level=10&&life_count<=life_amount){
 	global.lives+=instance_number(oLavender);
 	life_count++;
 }
-//LEVEL11
-if(global.level=11&&spawn_countT<=spawn_amountT){
-	spawn_amountT=9;
-	alarm[2] = 60;
-	instance_create_depth(x,y,-1,oTankEnemy)
-	spawn_countT++;
-}
-if(global.level=11&&spawn_countB<=spawn_amountB){
-	spawn_amountB=4;
-	instance_create_depth(x,y,-1,oEnemy)
-	alarm[2] = 60;
-	spawn_countB++;
-}
-if(global.level=11&&spawn_countS<=spawn_amountS){
-	spawn_amountS=9;
-	alarm[2] = 60;
-	instance_create_depth(x,y,-1,oSpeedyEnemy)
-	spawn_countS++;
-}
-//LEVEL12
+
+
 
 
 if(global.lives <= 0){
