@@ -4,7 +4,7 @@
 //	alarm[0] = spawn_rate;
 //	//show_debug_message(spawn_count);
 //}
-
+alarm[1]=1;
 if(global.level=1&&spawn_countB<=spawn_amountB){
 	instance_create_depth(x,y,-1,oEnemy)
 	alarm[2] = 60;
