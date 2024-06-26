@@ -5,5 +5,5 @@ if(instance_number(oEnemy) <= 0){
 	spawn_countX=0;
 	life_count=0;
 	global.level++;
-	alarm[0] = 1;
+	alarm[0] = 100;
 }

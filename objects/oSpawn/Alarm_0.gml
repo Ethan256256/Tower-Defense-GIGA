@@ -129,6 +129,9 @@ if(global.level=10&&life_count<=life_amount){
 	global.lives+=instance_number(oLavender);
 	life_count++;
 }
+if(global.level=11){
+	room_goto(Room3)
+}
 
 
 

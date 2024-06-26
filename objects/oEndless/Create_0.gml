@@ -13,7 +13,7 @@ life_amount = 0
 
 spawn_rate = 1*roomspeed;
 
-alarm[0] = 1;
+alarm[0] = 10;
 
 
 
