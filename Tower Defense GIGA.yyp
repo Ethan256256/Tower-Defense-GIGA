@@ -66,6 +66,7 @@
     {"id":{"name":"YouWinObject","path":"objects/YouWinObject/YouWinObject.yy",},},
     {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+<<<<<<< Updated upstream
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"id":{"name":"MouseOver","path":"scripts/MouseOver/MouseOver.yy",},},
@@ -110,6 +111,16 @@
     {"id":{"name":"Rock","path":"sprites/Rock/Rock.yy",},},
     {"id":{"name":"Spark","path":"sprites/Spark/Spark.yy",},},
     {"id":{"name":"SpeedyEnemy","path":"sprites/SpeedyEnemy/SpeedyEnemy.yy",},},
+=======
+    {"id":{"name":"game_music_loop_7_145285","path":"sounds/game_music_loop_7_145285/game_music_loop_7_145285.yy",},},
+    {"id":{"name":"mixkit_extra_bonus_in_a_video_game_2045","path":"sounds/mixkit_extra_bonus_in_a_video_game_2045/mixkit_extra_bonus_in_a_video_game_2045.yy",},},
+    {"id":{"name":"mixkit_horns_of_vengeance_713","path":"sounds/mixkit_horns_of_vengeance_713/mixkit_horns_of_vengeance_713.yy",},},
+    {"id":{"name":"mixkit_ominous_drums_227","path":"sounds/mixkit_ominous_drums_227/mixkit_ominous_drums_227.yy",},},
+    {"id":{"name":"mixkit_orchestra_positive_finish_695","path":"sounds/mixkit_orchestra_positive_finish_695/mixkit_orchestra_positive_finish_695.yy",},},
+    {"id":{"name":"punch_41105","path":"sounds/punch_41105/punch_41105.yy",},},
+    {"id":{"name":"punch_6_166699","path":"sounds/punch_6_166699/punch_6_166699.yy",},},
+    {"id":{"name":"sword_hit_7160","path":"sounds/sword_hit_7160/sword_hit_7160.yy",},},
+>>>>>>> Stashed changes
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
     {"id":{"name":"Sprite18","path":"sprites/Sprite18/Sprite18.yy",},},
     {"id":{"name":"sreg","path":"sprites/sreg/sreg.yy",},},
