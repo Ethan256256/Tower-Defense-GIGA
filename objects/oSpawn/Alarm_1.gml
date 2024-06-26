@@ -1,8 +1,7 @@
 if(instance_number(oEnemy) <= 0){
-	spawn_count=0;
-	spawn_amount++;
+	spawn_countB=0;
+	spawn_countS=0;
+	spawn_countT=0;
 	global.level++;
-	global.spd+=.1;
-	spawn_rate-=.5;
 	alarm[0] = 5;
 }
