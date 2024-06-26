@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"game_music_loop_7_145285",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":42.36,
+  "name":"game_music_loop_7_145285",
+  "parent":{
+    "name":"Tower Defense GIGA",
+    "path":"Tower Defense GIGA.yyp",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"game_music_loop_7_145285.mp3",
+  "type":0,
+  "volume":1.0,
+}
