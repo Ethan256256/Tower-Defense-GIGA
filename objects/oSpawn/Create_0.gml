@@ -14,16 +14,17 @@ life_amount = 0
 spawn_rate = 1*roomspeed;
 
 alarm[0] = 1;
+audio_play_sound(Music_Track,1,true)
 
 
 
 
 global.hp = 100;
 global.spd = 1;
-global.level = 4;
+global.level = 1;
 global.lives = 10;
 
-global.coins = 300;
+global.coins = 200;
 
 
 

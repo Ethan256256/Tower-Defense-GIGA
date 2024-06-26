@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"YouWinObject",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"otips",
+  "eventList":[],
   "managed":true,
-  "name":"YouWinObject",
+  "name":"otips",
   "overriddenProperties":[],
   "parent":{
-    "name":"Victory",
-    "path":"folders/Objects/Victory.yy",
+    "name":"Menu",
+    "path":"folders/Objects/Menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"VictoryTitle",
-    "path":"sprites/VictoryTitle/VictoryTitle.yy",
+    "name":"tips",
+    "path":"sprites/tips/tips.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,2 +1,2 @@
-global.coins += 125;
+global.coins += 50;
 oSpawn.alarm[1] = 1;
