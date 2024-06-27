@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Tower Sprites",
+    "path":"folders/Sprites/Tower Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

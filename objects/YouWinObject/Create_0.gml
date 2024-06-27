@@ -1,1 +1,1 @@
-audio_play_sound(Sound5,1,true)
+audio_play_sound(VictorySound,1,false)

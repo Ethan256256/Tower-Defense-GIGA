@@ -14,7 +14,7 @@ life_amount = 0
 spawn_rate = 1*roomspeed;
 
 alarm[0] = 1;
-audio_play_sound(Music_Track,1,true)
+audio_play_sound(Main_music,1,true)
 
 
 

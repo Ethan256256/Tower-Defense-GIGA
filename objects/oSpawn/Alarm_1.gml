@@ -5,6 +5,6 @@ if(instance_number(oEnemy) <= 0){
 	spawn_countX=0;
 	life_count=0;
 	global.level++;
-	audio_play_sound(Sound2,1,false)
+	audio_play_sound(NextLevelSound,1,false)
 	alarm[0] = 100;
 }

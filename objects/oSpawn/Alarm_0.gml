@@ -1,136 +1,76 @@
-//if(spawn_count<=spawn_amount){
-//	instance_create_depth(x,y,-1,oEnemy);
-//	spawn_count++;
-//	alarm[0] = spawn_rate;
-//	//show_debug_message(spawn_count);
-//}
+//Spawn Functions
 alarm[1]=1;
-if(global.level=1&&spawn_countB<=spawn_amountB){
-	instance_create_depth(x,y,-1,oEnemy)
-	alarm[2] = 60;
-	spawn_countB++;
+function enemySpawningB(level,spawn_amount){
+	if (global.level = level&&spawn_countB<=spawn_amountB){
+		spawn_amountB =  spawn_amount
+		instance_create_depth(x,y,-1,oEnemy);
+		alarm[2] = 30;
+		spawn_countB++;
+	}
 }
+function enemySpawningS(level,spawn_amount){
+	if (global.level = level&&spawn_countS<=spawn_amountS){
+		spawn_amountS =  spawn_amount
+		instance_create_depth(x,y,-1,oSpeedyEnemy);
+		alarm[2] = 30;
+		spawn_countS++;
+	}
+}
+function enemySpawningT(level,spawn_amount){
+	if (global.level = level&&spawn_countT<=spawn_amountT){
+		spawn_amountT =  spawn_amount
+		instance_create_depth(x,y,-1,oTankEnemy);
+		alarm[2] = 60;
+		spawn_countT++;
+	}
+}
+function enemySpawningX(level,spawn_amount){
+	if (global.level = level&&spawn_countX<=spawn_amountX){
+		spawn_amountX =  spawn_amount
+		instance_create_depth(x,y,-1,oBoss);
+		alarm[2] = 60;
+		spawn_countX++;
+	}
+}
+//levels
+enemySpawningB(1,3);
 
-if(global.level=2&&spawn_countB<=spawn_amountB){
-	spawn_amountB=5;
-	instance_create_depth(x,y,-1,oEnemy)
-	alarm[2] = 60;
-	spawn_countB++;
-}
-if(global.level=3&&spawn_countS<=spawn_amountS){
-	spawn_amountS=2;
-	instance_create_depth(x,y,-1,oSpeedyEnemy)
-	alarm[2] = 60;
-	spawn_countS++;
-}
-//LEVEL4
-if(global.level=4&&spawn_countB<=spawn_amountB){
-	spawn_amountB=2;
-	instance_create_depth(x,y,-1,oEnemy)
-	alarm[2] = 60;
-	spawn_countB++;
-}
-if(global.level=4&&spawn_countS<=spawn_amountS){
-	spawn_amountS=3;
-	alarm[2] = 60;
-	instance_create_depth(x,y,-1,oSpeedyEnemy)
-	spawn_countS++;
-}
-//LEVEL5
-if(global.level=5&&spawn_countB<=spawn_amountB){
-	spawn_amountB=5;
-	instance_create_depth(x,y,-1,oEnemy)
-	alarm[2] = 60;
-	spawn_countB++;
-}
-if(global.level=5&&spawn_countS<=spawn_amountS){
-	spawn_amountS=5;
-	alarm[2] = 60;
-	instance_create_depth(x,y,-1,oSpeedyEnemy)
-	spawn_countS++;
-}
+enemySpawningB(2,5);
+
+enemySpawningS(3,3);
+
+enemySpawningB(4,2);
+enemySpawningS(4,3);
+
+enemySpawningB(5,5);
+enemySpawningS(5,4);
 if(global.level=5&&life_count<=life_amount){
 	global.lives+=instance_number(oLavender);
 	life_count++;
 }
 
-//LEVEL6
-if(global.level=6&&spawn_countT<=spawn_amountT){
-	spawn_amountT=3;
-	alarm[2] = 60;
-	instance_create_depth(x,y,-1,oTankEnemy)
-	spawn_countT++;
-}
-//LEVEL7
-if(global.level=7&&spawn_countT<=spawn_amountT){
-	spawn_amountT=3;
-	alarm[2] = 60;
-	instance_create_depth(x,y,-1,oTankEnemy)
-	spawn_countT++;
-}
-if(global.level=7&&spawn_countB<=spawn_amountB){
-	spawn_amountB=3;
-	instance_create_depth(x,y,-1,oEnemy)
-	alarm[2] = 60;
-	spawn_countB++;
-}
-if(global.level=7&&spawn_countS<=spawn_amountS){
-	spawn_amountS=3;
-	alarm[2] = 60;
-	instance_create_depth(x,y,-1,oSpeedyEnemy)
-	spawn_countS++;
-}
-//LEVEL8
-if(global.level=8&&spawn_countT<=spawn_amountT){
-	spawn_amountT=5;
-	alarm[2] = 60;
-	instance_create_depth(x,y,-1,oTankEnemy)
-	spawn_countT++;
-}
-if(global.level=8&&spawn_countB<=spawn_amountB){
-	spawn_amountB=4;
-	instance_create_depth(x,y,-1,oEnemy)
-	alarm[2] = 60;
-	spawn_countB++;
-}
-if(global.level=8&&spawn_countS<=spawn_amountS){
-	spawn_amountS=7;
-	alarm[2] = 60;
-	instance_create_depth(x,y,-1,oSpeedyEnemy)
-	spawn_countS++;
-}
-//LEVEL9
-if(global.level=9&&spawn_countT<=spawn_amountT){
-	spawn_amountT=9;
-	alarm[2] = 60;
-	instance_create_depth(x,y,-1,oTankEnemy)
-	spawn_countT++;
-}
-if(global.level=9&&spawn_countS<=spawn_amountS){
-	spawn_amountS=9;
-	alarm[2] = 60;
-	instance_create_depth(x,y,-1,oSpeedyEnemy)
-	spawn_countS++;
-}
-//LEVEL10
-if(global.level=10&&spawn_countT<=spawn_amountT){
-	spawn_amountT=4;
-	alarm[2] = 60;
-	instance_create_depth(x,y,-1,oTankEnemy)
-	spawn_countT++;
-}
-if(global.level=10&&spawn_countX<=spawn_amountX){
-	spawn_amountX=0;
-	alarm[2] = 60;
-	instance_create_depth(x,y,-1,oBoss)
-	spawn_countX++;
-}
+enemySpawningT(6,3);
+
+enemySpawningT(7,3);
+enemySpawningB(7,3);
+enemySpawningS(7,3);
+
+enemySpawningT(8,5);
+enemySpawningB(8,3);
+enemySpawningS(8,7);
+
+enemySpawningT(9,9);
+enemySpawningS(9,9);
+
+enemySpawningT(10,5);
+enemySpawningX(10,0);
 if(global.level=10&&life_count<=life_amount){
 	global.lives+=instance_number(oLavender);
 	life_count++;
 }
+
 if(global.level=11){
-	room_goto(Room3)
+	room_goto(WinScreen)
 }
 
 

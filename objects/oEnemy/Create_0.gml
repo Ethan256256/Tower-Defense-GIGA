@@ -1,3 +1,3 @@
 spd = global.spd
-path_start(Path1,spd,0,1);
+path_start(Endless_Room1Path,spd,0,1);
 hp = global.hp;

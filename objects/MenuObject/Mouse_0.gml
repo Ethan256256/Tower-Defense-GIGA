@@ -3,4 +3,4 @@
 /// @DnDHash : 49BB2880
 /// @DnDArgument : "room" "Room2"
 /// @DnDSaveInfo : "room" "Room2"
-room_goto(Room2);
+room_goto(TitleScreen);

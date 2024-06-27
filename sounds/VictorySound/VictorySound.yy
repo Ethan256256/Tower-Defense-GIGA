@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"Sound2",
+  "%Name":"VictorySound",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.438844,
-  "name":"Sound2",
+  "duration":5.804989,
+  "name":"VictorySound",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Sound2.wav",
+  "soundFile":"VictorySound.wav",
   "type":0,
   "volume":1.0,
 }

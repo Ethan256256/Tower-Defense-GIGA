@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"Sound3",
+  "%Name":"NextLevelSound",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":10.459342,
-  "name":"Sound3",
+  "duration":1.438844,
+  "name":"NextLevelSound",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Sound3.wav",
+  "soundFile":"NextLevelSound.wav",
   "type":0,
   "volume":1.0,
 }

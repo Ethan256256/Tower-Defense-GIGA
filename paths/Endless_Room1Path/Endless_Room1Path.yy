@@ -1,9 +1,9 @@
 {
   "$GMPath":"",
-  "%Name":"Path1",
+  "%Name":"Endless_Room1Path",
   "closed":false,
   "kind":0,
-  "name":"Path1",
+  "name":"Endless_Room1Path",
   "parent":{
     "name":"Rooms",
     "path":"folders/Rooms.yy",
