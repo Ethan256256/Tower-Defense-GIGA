@@ -5,8 +5,8 @@
   "kind":0,
   "name":"Endless_Room1Path",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Paths",
+    "path":"folders/Paths.yy",
   },
   "points":[
     {"speed":100.0,"x":112.0,"y":-22.0,},
